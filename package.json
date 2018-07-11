@@ -1,5 +1,5 @@
 {
-  "name": "iOS-info",
+  "name": "ios-info",
   "version": "1.0.0",
   "description": "Export array of ios_version|iDevice|BundleId",
   "main": "index.js",

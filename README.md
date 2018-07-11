@@ -15,7 +15,7 @@ npm i --save ios-info
 ## Usage
 
 ```javascript
-const iOSs = require('iOS-info')
+const iOSs = require('ios-info')
 //Get devices can install ios 10.3.3
 iOSs.filter(([ios_version, device, bundle_id])=>ios_version=='10.3.3')
 // Filter by device
