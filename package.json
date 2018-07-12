@@ -1,12 +1,17 @@
 {
   "name": "ios-info",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Export array of ios_version|iDevice|BundleId",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["ios", "idevice", "iphone", "ipad"],
+  "keywords": [
+    "ios",
+    "idevice",
+    "iphone",
+    "ipad"
+  ],
   "repository": {
     "url": "https://github.com/0x0a0d/iOS-info",
     "type": "git"
@@ -14,6 +19,7 @@
   "author": "0x0a0d",
   "license": "ISC",
   "devDependencies": {
+    "promise-limit": "^2.6.0",
     "request": "^2.87.0",
     "request-promise-native": "^1.0.5"
   }
